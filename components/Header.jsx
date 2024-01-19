@@ -5,15 +5,18 @@ function Header() {
     <header>
       <Link to="/" className='home-link'>#VANLIFE</Link>
       <nav>
-        <NavLink to="/host" 
+        <NavLink 
+          to="/host" 
           className={({isActive}) => isActive ? "active-link" : "nav-link"}>
             Host
         </NavLink>
-        <NavLink to="/about" 
+        <NavLink 
+          to="/about" 
           className={({isActive}) => isActive ? "active-link" : "nav-link"}>
             About
         </NavLink>
-        <NavLink to="/vans" 
+        <NavLink 
+          to="/vans" 
           className={({isActive}) => isActive ? "active-link" : "nav-link"}>
             Vans
         </NavLink>
