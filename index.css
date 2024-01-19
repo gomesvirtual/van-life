@@ -41,6 +41,23 @@ header {
     background-color: #FFF7ED;
 }
 
+header a {
+    text-decoration: none;
+    color: #4D4D4D;
+    padding: 5px 20px;
+}
+
+header a:hover {
+    color: #161616;
+    text-decoration: underline;
+}
+
+.active-link {
+    font-weight: 700;
+    text-decoration: underline;
+    color: #161616;
+}
+
 
 .link-button {
     display: inline-block;
@@ -63,17 +80,7 @@ header {
 
 .home-link {
     font-weight: 900;
-    font-size: 22px;
-}
-
-.nav-link {
-    margin-left: 30px;
-    color: #4D4D4D;
-    font-weight: 500;
-}
-
-.nav-link:hover {
-    border-bottom: 2px solid #7e7e7e;
+    font-size: 24px;
 }
 
 .home-container {
