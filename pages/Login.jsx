@@ -44,7 +44,7 @@ function Login() {
           type="password"
           placeholder="Password"
         />
-        <button disabled={state === "submitting"}>{state === "submitting" ? "Loggin in..." : "Log in"}</button>
+        <button disabled={state === "submitting"}>{state === "submitting" ? "Logging in..." : "Log in"}</button>
       </Form>
     </div>
    );
