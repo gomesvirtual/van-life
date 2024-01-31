@@ -1,4 +1,5 @@
-import { BsStarFill } from "react-icons/bs"
+import { BsStarFill } from "react-icons/bs";
+import imageUrl from "/assets/images/reviews-graph.png";
 
 function Reviews() {
   const reviewsData = [
@@ -28,7 +29,7 @@ function Reviews() {
       </div>
       <img
         className="graph"
-        src="/assets/images/reviews-graph.png"
+        src={imageUrl}
         alt="Review graph"
       />
       <h3>Reviews (2)</h3>
