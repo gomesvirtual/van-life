@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
-import imageUrl from "/assets/images/avatar-icon.png"
+import avatarUrl from "/assets/images/avatar-icon.png"
+import logOutUrl from "/assets/images/logout-icon.png"
 
 function Header() {
 
@@ -27,9 +28,9 @@ function Header() {
             Vans
         </NavLink>
         <Link to="login" className="login-link">
-            <img src={imageUrl} className="login-icon" />
+          <img src={avatarUrl} className="login-icon" title="log in" />
         </Link>
-        <button onClick={fakeLogOut}>X</button>
+        <button onClick={fakeLogOut} className="logout"><img src={logOutUrl} title="log out" /></button>
       </nav>
     </header>
    );
